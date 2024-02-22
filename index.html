@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E N I G M A 🔐</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <img class="logo-img" src="./assets/logo.png" alt="" />
+        <img class="logo-nome" src="./assets/nome.png" alt="" />
+      </section>
+    </header>
+    <main>
+      <section class="primeira-section">
+      <textarea class="input" name="" id="" cols="20" rows="10" placeholder="Digite o texto que deseja criptografar !"></textarea>
+        <div>
+          <!-- <p>⚠️ Apenas letras minusculas sem acento!</p> -->
+          <button onclick="criptografar()">Criptografar</button>
+          <button onclick="descriptografar()">Descriptografar</button>
+        </div>
+      </section>
+      
+      <section class="segunda-section">
+        <img id="imgrobo" src="./assets/lupa.png" alt="" />
+        <div>
+          <h2></h2>
+          <p></p>          
+        </div>
+        <button id="botao-Copiar" style="display: none;" onclick="copiartxt()">Copiar</button>
+      </section>
+    </main>
+    <footer><p>Desenvolvido por Luiz Michel aluno AluraONE</p></footer>
+    <script src="app.js"></script>
+  </body>
+</html>

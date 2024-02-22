@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+:root {
+  --color-pretoHeader: #080a09;
+  --color-pretoCorpo: #000000;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: var(--color-pretoHeader);
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9vh;
+}
+
+.logo-img {
+  width: 75px;
+}
+.logo-nome {
+  width: 200px;
+  height: 45px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+  background: var(--color-pretoCorpo);
+}
+
+.primeira-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 50vw;
+  height: 70vh;
+}
+
+.primeira-section div {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+::placeholder {
+  color: #593bcc;
+  font-size: 40px;
+  text-shadow: 0 0 15px;
+}
+
+.primeira-section .input {
+  background: transparent;
+  color: #593bcc;
+  border: none;
+  height: 60vh;
+  font-size: 50px;
+  outline: none; 
+  width: 40vw;
+  }
+
+.primeira-section button {
+  width: 350px;
+  height: 60px;
+  background-color: transparent;
+  font-size: 18px;
+  color: #593bcc;
+  border-radius: 10px;
+  border: 2px solid #593bcc;
+  cursor: pointer;
+}
+
+button:hover {
+  text-shadow: 0 0 20px;
+  box-shadow: 0 0 20px, inset 0 0 20px;
+}
+
+.segunda-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+  height: 70vh;
+  border-radius: 10px;
+  border: 2px solid #593bcc;
+  box-shadow: #593bcc 0 0 30px;
+}
+
+.segunda-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 25vw; 
+}
+
+.segunda-section div h2{
+  word-wrap: break-word;
+  color:#767877;
+  width: 25vw;
+  text-align: center;
+}
+
+.segunda-section div p {
+    color: #767877;
+    font-size: 17px;
+    width: 25vw;
+    text-align: center;
+}
+
+.segunda-section img {
+  width: 23.8vw;
+}
+
+.segunda-section button{
+  width: 350px;
+  height: 60px;
+  background-color: transparent;
+  font-size: 18px;
+  color: #593bcc;
+  border-radius: 10px;
+  border: 2px solid #593bcc;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
+  background-color: var(--color-pretoHeader);
+}
+
+footer p {
+  color: #593bcc;
+  text-shadow: 0 0 25px;
+}
+
