@@ -1,0 +1,110 @@
+
+@media (max-width: 1365px) {
+    .primeira-section div {
+         width: 50vw;
+         justify-content: space-around; 
+    }
+  
+    .segunda-section #botao-Copiar {
+      width: 20vw;    
+    }
+  
+    .segunda-section .div-BotaoCopiar{
+      height: 60px;
+    }
+  }
+  
+  @media (max-width: 1280px){
+  
+  }
+  
+  @media (max-width: 1023px){
+  
+    .segunda-section .div-PH2 h2{
+      font-size: 2vw;
+    }
+  
+    .segunda-section .div-PH2 p {
+      font-size: 2vw;
+    }
+  }
+  
+  @media (max-width: 767px){
+  
+      ::placeholder {
+         font-size: 5vw;;    
+    }
+  
+    .primeira-section .input{
+      font-size: 5vw;
+    }
+  
+    .segunda-section .div-PH2{
+      justify-content: space-evenly;
+    }
+  
+    .segunda-section .div-PH2 h2{
+      font-size: 3vw;
+    }
+  }
+  
+  @media (max-width: 459px){
+    main {
+      height: 150vh;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .input {
+      width: 100%;
+    }
+  
+  
+    .primeira-section {
+      width: 80vw;    
+    }
+  
+    .primeira-section div{
+      width: 80vw;
+      height: 20vh;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .primeira-section button{
+      width: 60vw;
+    }
+  
+    .segunda-section {
+      width: 70vw;
+    }
+  
+    .segunda-section #imgrobo{
+      width: 69vw;
+    }
+  
+    .segunda-section .div-PH2{
+      width: 70vw;
+  
+    }
+  
+    .segunda-section .div-PH2 h2{
+      font-size: 4vw;
+      width: 70vw;
+  
+    }
+  
+  
+    .segunda-section .div-PH2 p{
+      font-size: 4vw;
+      width: 70vw;
+    }
+  
+    .segunda-section .div-BotaoCopiar {
+      width: 50vw;
+    }
+  
+    .segunda-section #botao-Copiar{
+      width: 50vw;
+    }
+  }
