@@ -69,8 +69,8 @@ main {
   border: none;
   height: 60vh;
   font-size: 50px;
-  outline: none;  
-  }
+  outline: none;
+}
 
 .primeira-section button {
   width: 17vw;
@@ -105,22 +105,22 @@ button:hover {
   align-items: center;
   justify-content: center;
   height: 70vh;
-  width: 24vw; 
+  width: 24vw;
 }
 
-.segunda-section div h2{
+.segunda-section div h2 {
   word-wrap: break-word;
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   color: #593bcc;
   width: 25vw;
   text-align: center;
 }
 
 .segunda-section div p {
-    color:  #593bcc;
-    font-size: 1.5vw;
-    width: 25vw;
-    text-align: center;
+  color: #593bcc;
+  font-size: 1.2vw;
+  width: 25vw;
+  text-align: center;
 }
 
 .segunda-section img {
@@ -136,7 +136,7 @@ button:hover {
   height: 60px;
 }
 
-.segunda-section button{
+.segunda-section button {
   width: 50vw;
   height: 60px;
   background-color: transparent;
