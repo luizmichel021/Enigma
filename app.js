@@ -71,3 +71,4 @@ function copiarTxt() {
   let texto = document.querySelector('output').value;
   navigator.clipboard.writeText(texto);
 }
+
