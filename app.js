@@ -4,12 +4,14 @@ function zerarTela() {
   aparecerImg("none");
   exibirTexto("h2", "");
   exibirTexto("p", "");
+  exibirTexto("output", "");
 }
 
 function telaCaso1 (){
     textoNotFound("block");
     aparecerImg("block");
     aparecerBotao("none")
+    exibirTexto("output", "");
 }
 
 function textoNotFound() {
@@ -41,14 +43,15 @@ function criptografar() {
     let txtInput = document.querySelector("textarea").value;
     let textoCodificado = btoa(txtInput);
     zerarTela();
-    exibirTexto("h2", `${textoCodificado}`);
-    copiarTxt(textoCodificado);
+    exibirTexto("output", `${textoCodificado}`);
     aparecerBotao("block");
   }
+
 }
 
 function descriptografar() {
   let inputTexto = document.querySelector("textarea").value;
+
 
   if (inputTexto == "") {
       telaCaso1();
@@ -56,13 +59,15 @@ function descriptografar() {
     let txtInput = document.querySelector("textarea").value;
     let textoDecodificado = atob(txtInput);
     zerarTela();
-    exibirTexto("h2", `${textoDecodificado}`);
-    copiarTxt(textoDecodificado);
+    exibirTexto("output", `${textoDecodificado}`);
     aparecerBotao("block");
+  
   }
 }
 
-function copiarTxt(texto) {
-  let textoCopiado = texto;
-  navigator.clipboard.writeText(textoCopiado);
+copiarTxt();
+
+function copiarTxt() {
+  let texto = document.querySelector('output').value;
+  navigator.clipboard.writeText(texto);
 }

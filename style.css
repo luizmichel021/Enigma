@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Turret+Road:wght@400;500;700&display=swap' );
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   color: white;
+  font-family: "Turret Road", sans-serif; 
 }
+
 
 :root {
   --color-pretoHeader: #080a09;
   --color-pretoCorpo: #000000;
+  --color-roxoPrincipal: #593bcc;
 }
 
 body {
@@ -58,18 +63,19 @@ main {
 }
 
 ::placeholder {
-  color: #593bcc;
+  color: var(--color-roxoPrincipal);
   font-size: 40px;
   text-shadow: 0 0 15px;
 }
 
 .primeira-section .input {
   background: transparent;
-  color: #593bcc;
+  color: var(--color-roxoPrincipal);
   border: none;
   height: 60vh;
   font-size: 50px;
   outline: none;
+  text-shadow: 0 0 15px;
 }
 
 .primeira-section button {
@@ -77,9 +83,10 @@ main {
   height: 60px;
   background-color: transparent;
   font-size: 18px;
+  font-weight: 600;
   color: #593bcc;
   border-radius: 10px;
-  border: 2px solid #593bcc;
+  border: 2px solid var(--color-roxoPrincipal);
   cursor: pointer;
 }
 
@@ -95,8 +102,8 @@ button:hover {
   width: 24vw;
   height: 70vh;
   border-radius: 10px;
-  border: 2px solid #593bcc;
-  box-shadow: #593bcc 0 0 30px;
+  border: 2px solid var(--color-roxoPrincipal);
+  box-shadow: var(--color-roxoPrincipal) 0 0 30px;
 }
 
 .segunda-section .div-PH2 {
@@ -111,16 +118,20 @@ button:hover {
 .segunda-section div h2 {
   word-wrap: break-word;
   font-size: 1.5vw;
-  color: #593bcc;
+  color: var(--color-roxoPrincipal);
   width: 25vw;
   text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  text-shadow: 0 0 10px;
 }
 
 .segunda-section div p {
-  color: #593bcc;
+  color: var(--color-roxoPrincipal);
   font-size: 1.2vw;
   width: 25vw;
   text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  text-shadow: 0 0 10px;
 }
 
 .segunda-section img {
@@ -141,11 +152,12 @@ button:hover {
   height: 60px;
   background-color: transparent;
   font-size: 18px;
-  color: #593bcc;
+  color: var(--color-roxoPrincipal);
   border-radius: 10px;
-  border: 2px solid #593bcc;
+  border: 2px solid var(--color-roxoPrincipal);
   cursor: pointer;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 footer {
@@ -157,6 +169,17 @@ footer {
 }
 
 footer p {
-  color: #593bcc;
-  text-shadow: 0 0 25px;
+  font-family: "Rajdhani", sans-serif;
+  color: var(--color-roxoPrincipal);
+  text-shadow: 0 0 10px;
+}
+
+output{
+  word-wrap: break-word;
+  font-size: 1.4vw;
+  color: var(--color-roxoPrincipal);
+  width: 23vw;
+  text-shadow: 0 0 15px;
+  text-align: center;
+  font-weight: 500;
 }
